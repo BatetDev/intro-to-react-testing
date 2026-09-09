@@ -1,16 +1,14 @@
-# React + Vite
+# Intro to React Testing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Practice repository for React testing concepts, including:
 
-Currently, two official plugins are available:
+- Unit testing with Vitest
+- Component testing with React Testing Library
+- Test-driven development (TDD) fundamentals
+- Mocking and mocking modules
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tools
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Vitest](https://vitest.dev/) — test runner
+- [React Testing Library](https://testing-library.com/react) — component testing
+- [JSDOM](https://github.com/jsdom/jsdom) — DOM simulation
