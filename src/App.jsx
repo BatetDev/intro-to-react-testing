@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CustomButton from './components/CustomButton';
 
 const App = () => {
   const [heading, setHeading] = useState('Magnificent Monkeys');
@@ -13,6 +14,7 @@ const App = () => {
         Click Me
       </button>
       <h1>{heading}</h1>
+      <CustomButton>Test</CustomButton>
     </>
   );
 };
